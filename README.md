@@ -36,4 +36,4 @@
 * **UI**: Streamlit (Data Dashboard) 
 
 ---
-> [cite_start]本项目代码由作者通过 **Vibe Coding** 模式主导设计并驱动 AI 协作完成 [cite: 76]。
+> 本项目代码由作者通过 **Vibe Coding** 模式主导设计并驱动 AI 协作完成 。
