@@ -17,7 +17,7 @@
 **解决痛点**：通过 `WeightedEnsembleClassifier` 对规则与 AI 结果进行动态权重分配，有效规避 LLM 的“幻觉”问题 。
 
 ### [cite_start]2. 语义聚类去重引擎 (Semantic Deduplication) [cite: 66]
-- [cite_start]**算法方案**：利用 **TF-IDF + 余弦相似度** 对会话进行预处理 [cite: 67]。
+- [cite_start]**算法方案**：利用 **TF-IDF + 余弦相似度** 对会话进行预处理 []。
 - [cite_start]**商业价值**：识别相似度 > 0.85 的重复咨询，实现“一次推理，万次复用”，将单位质检成本控制在极低水平 。
 
 ## ⚙️ 技术决策 (Technical Decisions)
