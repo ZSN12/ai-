@@ -25,15 +25,15 @@
 ---
 
 ## ⚙️ 技术决策 (Technical Decisions)
-* [cite_start]**性能与稳定性**：采用 **SQLite WAL 模式** 与连接池技术，解决多线程并发下的读写冲突 [cite: 70]。
-* [cite_start]**背压控制**：设计 **Semaphore (信号量) 机制**，确保 AI 消费速度与数据读取速度平衡，系统在高负载下依然稳健 [cite: 71]。
+* **性能与稳定性**：采用 **SQLite WAL 模式** 与连接池技术，解决多线程并发下的读写冲突 。
+* **背压控制**：设计 **Semaphore (信号量) 机制**，确保 AI 消费速度与数据读取速度平衡，系统在高负载下依然稳健 。
 
 ---
 
 ## 🛠 技术栈
-* [cite_start]**AI**: DeepSeek API, Few-shot Learning, Semantic Clustering [cite: 73]
-* [cite_start]**Backend**: Python 3.9+, SQLite (Connection Pool), Pandas [cite: 74]
-* [cite_start]**UI**: Streamlit (Data Dashboard) [cite: 75]
+* **AI**: DeepSeek API, Few-shot Learning, Semantic Clustering 
+* **Backend**: Python 3.9+, SQLite (Connection Pool), Pandas 
+* **UI**: Streamlit (Data Dashboard) 
 
 ---
 > [cite_start]本项目代码由作者通过 **Vibe Coding** 模式主导设计并驱动 AI 协作完成 [cite: 76]。
