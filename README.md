@@ -5,15 +5,15 @@
 ---
 
 ## 📈 核心业务战果
-- [cite_start]**成本治理**：引入语义去重算法，API 消耗支出直降 **70%** 。
-- [cite_start]**精度跃迁**：通过专家仲裁机制，意图识别准确率从 **78% 提升至 92%** 。
-- [cite_start]**能效提升**：实现 **20万行级** 大数据流式处理，彻底取代人工归因复盘 。
+  **成本治理**：引入语义去重算法，API 消耗支出直降 **70%** 。
+  **精度跃迁**：通过专家仲裁机制，意图识别准确率从 **78% 提升至 92%** 。
+  **能效提升**：实现 **20万行级** 大数据流式处理，彻底取代人工归因复盘 。
 
 ## 🧠 核心策略模块 (Strategy Modules)
 
-### [cite_start]1. 专家投票仲裁系统 (Expert Voting System) [cite: 62]
-- [cite_start]**仲裁逻辑**：针对 70% 高频确定场景采用关键词规则引擎，30% 长尾场景调用 LLM [cite: 63]。
-- [cite_start]**解决痛点**：通过 `WeightedEnsembleClassifier` 对规则与 AI 结果进行动态权重分配，有效规避 LLM 的“幻觉”问题 [cite: 64, 65]。
+1. 专家投票仲裁系统 (Expert Voting System) [cite: 62]
+**仲裁逻辑**：针对 70% 高频确定场景采用关键词规则引擎，30% 长尾场景调用 LLM [cite: 63]。
+**解决痛点**：通过 `WeightedEnsembleClassifier` 对规则与 AI 结果进行动态权重分配，有效规避 LLM 的“幻觉”问题 [cite: 64, 65]。
 
 ### [cite_start]2. 语义聚类去重引擎 (Semantic Deduplication) [cite: 66]
 - [cite_start]**算法方案**：利用 **TF-IDF + 余弦相似度** 对会话进行预处理 [cite: 67]。
