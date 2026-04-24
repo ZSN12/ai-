@@ -13,6 +13,7 @@
 
 1. 专家投票仲裁系统 (Expert Voting System) [cite: 62]
 **仲裁逻辑**：针对 70% 高频确定场景采用关键词规则引擎，30% 长尾场景调用 LLM 。
+
 **解决痛点**：通过 `WeightedEnsembleClassifier` 对规则与 AI 结果进行动态权重分配，有效规避 LLM 的“幻觉”问题 。
 
 ### [cite_start]2. 语义聚类去重引擎 (Semantic Deduplication) [cite: 66]
