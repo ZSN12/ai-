@@ -12,12 +12,12 @@
 ## 🧠 核心策略模块 (Strategy Modules)
 
 1. 专家投票仲裁系统 (Expert Voting System) [cite: 62]
-**仲裁逻辑**：针对 70% 高频确定场景采用关键词规则引擎，30% 长尾场景调用 LLM [cite: 63]。
-**解决痛点**：通过 `WeightedEnsembleClassifier` 对规则与 AI 结果进行动态权重分配，有效规避 LLM 的“幻觉”问题 [cite: 64, 65]。
+**仲裁逻辑**：针对 70% 高频确定场景采用关键词规则引擎，30% 长尾场景调用 LLM 。
+**解决痛点**：通过 `WeightedEnsembleClassifier` 对规则与 AI 结果进行动态权重分配，有效规避 LLM 的“幻觉”问题 。
 
 ### [cite_start]2. 语义聚类去重引擎 (Semantic Deduplication) [cite: 66]
 - [cite_start]**算法方案**：利用 **TF-IDF + 余弦相似度** 对会话进行预处理 [cite: 67]。
-- [cite_start]**商业价值**：识别相似度 > 0.85 的重复咨询，实现“一次推理，万次复用”，将单位质检成本控制在极低水平 [cite: 68]。
+- [cite_start]**商业价值**：识别相似度 > 0.85 的重复咨询，实现“一次推理，万次复用”，将单位质检成本控制在极低水平 。
 
 ## ⚙️ 技术决策 (Technical Decisions)
 - [cite_start]**性能与稳定性**：采用 **SQLite WAL 模式** 与连接池技术，解决多线程并发下的读写冲突 [cite: 70]。
