@@ -62,6 +62,14 @@ https://github.com/user-attachments/assets/d64f0fb2-e519-4666-becc-94210ed391b4
 
 ---
 
+## 📂 仓库导览 (Repository Navigation)
+虽然核心业务逻辑闭源，但本仓库提供了以下极具参考价值的基础组件与架构范例，欢迎探索：
+* `ui/`：Streamlit 数据大屏前端组件与 I18n 多语言配置架构。
+* `config_template.py`：系统环境变量与大模型高频词词典配置范例。
+* `architecture_docs/`：系统并发调度与脱敏网关的详细设计说明。
+
+---
+
 ## 🔐 履约声明与交流邀请 (Compliance & Let's Talk)
 
 > ⚠️ **合规声明 (Disclaimer)**
