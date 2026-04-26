@@ -23,8 +23,10 @@
 ## 🎥 演示视频与架构图 (Demo & Architecture)
 
 ### 视频演示
-<!-- 📍占位符：在这里放置 YouTube/Bilibili 的视频链接，或者能够展示上传文件 -> 动态进度条 -> 生成分析图表的 GIF 动图 -->
-[![Watch the demo](https://img.youtube.com/vi/YOUR_VIDEO_ID/maxresdefault.jpg)](https://youtu.be/YOUR_VIDEO_ID)
+
+
+
+
 *(点击上方图片观看完整操作演示)*
 
 ### 系统流转架构
