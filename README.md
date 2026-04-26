@@ -25,13 +25,13 @@
 ### 视频演示
 
 
+https://github.com/user-attachments/assets/d64f0fb2-e519-4666-becc-94210ed391b4
 
 
-*(点击上方图片观看完整操作演示)*
 
 ### 系统流转架构
-<!-- 📍占位符：在这里放一张系统架构图（可以使用 Draw.io, Excalidraw 绘制），展示数据流向与背压控制逻辑 -->
-![System Architecture](docs/assets/architecture_flowchart.png)
+<img width="700" height="825" alt="Welcome to FigJam (1)" src="https://github.com/user-attachments/assets/7193f7bd-c82c-4c72-a4c5-f05e0a659e7e" />
+
 
 ---
 
@@ -70,5 +70,4 @@
 > 💡 **开发模式声明 (Vibe Coding)**
 > 本项目代码由作者通过 **Vibe Coding** 模式主导架构设计，并驱动 AI 协作完成。旨在探索“人机协同”在复杂工程落地中的效率极限。
 
-<!-- 📍占位符：换成您的真实邮箱地址或领英主页链接 -->
-* **Let's Talk**: 欢迎通过 [YourEmail@example.com](mailto:YourEmail@example.com) 与我交流大模型商业化落地、成本优化策略及 Vibe Coding 实践经验。
+* **Let's Talk**: 欢迎通过 [15990070647@163.com](mailto:15990070647@163.com) 与我交流大模型商业化落地、成本优化策略及 Vibe Coding 实践经验。
