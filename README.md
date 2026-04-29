@@ -1,4 +1,4 @@
-#  电商智能客服：转人工归因自动化系统 (AI Attribution & ROI Optimizer)
+#  电商智能客服：转人工归因自动化系统 
 
 > **“不仅仅是分类，更是对 AI 运营成本的极致压榨。”**
 > 本项目专注于解决大模型落地中的“幻觉问题”与“成本焦虑”。
@@ -12,7 +12,7 @@
 
 ---
 
-## 🌟 核心业务战果 (Business Impact)
+## 🌟 核心业务战果
 
 * **💰 成本治理**：引入语义去重算法，实现“一次推理，万次复用”，API 消耗支出直降 **70%**。
 * **🎯 精度跃迁**：通过专家仲裁机制动态分配权重，意图识别准确率从 **78% 跃升至 92%**。
@@ -20,7 +20,7 @@
 
 ---
 
-## 🎥 演示视频与架构图 (Demo & Architecture)
+## 🎥 演示视频与架构图 
 
 ### 视频演示
 
@@ -35,7 +35,7 @@ https://github.com/user-attachments/assets/d64f0fb2-e519-4666-becc-94210ed391b4
 
 ---
 
-## 🧠 核心策略模块 (Strategy Modules)
+## 🧠 核心策略模块 
 
 ### 1. ⚖️ 专家投票仲裁系统 (Expert Voting System)
 * **仲裁逻辑**：针对 70% 高频确定场景采用关键词规则引擎，30% 长尾场景调用 LLM 语义推理。
@@ -52,7 +52,7 @@ https://github.com/user-attachments/assets/d64f0fb2-e519-4666-becc-94210ed391b4
 
 ---
 
-## 🛠️ 技术底座 (Tech Stack)
+## 🛠️ 技术底座 
 
 * **产品前端**：Streamlit (交互式数据面板展示)
 * **AI 引擎**：DeepSeek API (Few-shot Learning / Prompt Engineering)
@@ -71,7 +71,7 @@ https://github.com/user-attachments/assets/d64f0fb2-e519-4666-becc-94210ed391b4
 ## 🔐 履约声明与交流邀请 (Compliance & Let's Talk)
 
 > ⚠️ **合规声明 (Disclaimer)**
-> 本项目为实习期间深度参与的商业化落地项目。基于职业素养与保密协议（NDA），本仓库**仅作产品架构、策略逻辑与脱敏界面的展示，暂不开源核心业务代码、Prompt 指令集及真实生产数据**。演示视频中的分析内容均为随机生成的 Mock Data。
+> 本项目为实习期间写出的项目。基于职业素养与保密协议（NDA），本仓库**仅作产品架构、策略逻辑与脱敏界面的展示，暂不开源核心业务代码、Prompt 指令集及真实生产数据**。演示视频中的分析内容均为随机生成的 Mock Data。
 
 > 💡 **开发模式声明 (Vibe Coding)**
 > 本项目代码由作者通过 **Vibe Coding** 模式主导架构设计，并驱动 AI 协作完成。旨在探索“人机协同”在复杂工程落地中的效率极限。
