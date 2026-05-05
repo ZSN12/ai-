@@ -8,7 +8,7 @@
 ![Framework](https://img.shields.io/badge/framework-Streamlit-FF4B4B)
 ![AI-Engine](https://img.shields.io/badge/AI-DeepSeek-lightgrid)
 
-本项目是一款基于 **“规则引擎 + 大模型 (LLM)”** 集成架构的转人工归因分析系统。专为电商业务场景设计，通过多线程异步调度与语义聚类技术，实现海量客服对话数据的高效分类质检，彻底取代人工归因复盘。
+本项目是一款基于 “规则引擎 + 大模型 (LLM)” 集成架构的商业级转人工归因分析中台。专为电商业务场景设计，采用前后端分离架构，通过多线程异步调度、语义聚类技术与动态 Few-Shot 纠错链路，实现海量客服对话数据的高效分类质检，彻底取代人工归因复盘。
 
 ---
 
@@ -54,9 +54,9 @@ https://github.com/user-attachments/assets/d64f0fb2-e519-4666-becc-94210ed391b4
 
 ## 🛠️ 技术底座 
 
-* **产品前端**：Streamlit (交互式数据面板展示)
+* **产品前端**：Vue3 + Vite + Element Plus 
 * **AI 引擎**：DeepSeek API (Few-shot Learning / Prompt Engineering)
-* **后端架构**：Python 3.9+, 并发线程池调度
+* **后端架构**：FastAPI + Python 3.9+ (RESTful API 设计，异步并发调度)
 * **数据存储**：SQLite (高并发 WAL 模式)
 * **数据处理**：Pandas, scikit-learn (特征向量化与清洗)
 
