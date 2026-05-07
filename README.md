@@ -5,7 +5,6 @@
 
 ![Version](https://img.shields.io/badge/version-1.0.0-blue)
 ![Python](https://img.shields.io/badge/python-3.9+-green)
-![Framework](https://img.shields.io/badge/framework-Streamlit-FF4B4B)
 ![AI-Engine](https://img.shields.io/badge/AI-DeepSeek-lightgrid)
 
 本项目是一款基于 “规则引擎 + 大模型 (LLM)” 集成架构的商业级转人工归因分析中台。专为电商业务场景设计，采用前后端分离架构，通过多线程异步调度、语义聚类技术与动态 Few-Shot 纠错链路，实现海量客服对话数据的高效分类质检，彻底取代人工归因复盘。
