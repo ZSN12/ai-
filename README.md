@@ -1,7 +1,7 @@
 #  电商智能客服：转人工归因自动化系统 
 
 > **“不仅仅是分类，更是对 AI 运营成本的极致压榨。”**
-> 本项目专注于解决大模型落地中的“幻觉问题”与“成本焦虑”。
+> 本项目专注于解决AI客服归因的“成本焦虑”和“归因异常”。
 
 ![Version](https://img.shields.io/badge/version-1.0.0-blue)
 ![Python](https://img.shields.io/badge/python-3.9+-green)
