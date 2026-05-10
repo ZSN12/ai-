@@ -27,11 +27,10 @@ https://github.com/user-attachments/assets/517045a1-249c-4a39-b9b6-7ab210cda113
 
 
 ### 系统流转架构
-<img width="700" height="825" alt="Welcome to FigJam (1)" src="https://github.com/user-attachments/assets/7193f7bd-c82c-4c72-a4c5-f05e0a659e7e" />
 
+<img width="780" height="825" alt="Welcome to FigJam (2)" src="https://github.com/user-attachments/assets/0f5418a9-49c0-49b2-9a44-a7491f274c5d" />
 
 ---
-
 ##  核心策略模块 
 
 ### 1.  专家投票仲裁系统 
